@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Academic Planner | Tatiana</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+  <body>
+      <header>
+        <h1>My Academic Planner</h1>
+        <p>Organising my studies, one task at a time.</p>
+      </header>
+      <nav aria-label="Main navigation">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Me</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="planner.html" aria-current="page">Planner</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+        <main>
+            <section>
+                <h2>Add a new task</h2>
+                <label for="taskinput">Task description:</label>
+                <input
+                     type="text"
+                     id="taskinput"
+                     placeholder="Enter your academic task...">
+                <button id="addtaskbtn" type="button">Add Task</button>
+            </section>
+            <section>
+                <h2>My Tasks</h2>
+            <ul id="tasklist"></ul>
+            </section>
+        </main>
+  <script src="script.js"></script>
+  </body>
+</html>
